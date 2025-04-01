@@ -1,0 +1,389 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fdf3e7;
+    font-family: quicksand,sans-serif;
+}
+
+header {
+    background-color: #AFB42B;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header img {
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-weight: bold;
+    padding: 10px;
+    font-size: larger;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5a381e;
+    
+}
+
+
+.Video {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.Video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.text1, .text2enimg, .text3enimg2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.text1 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text1 p {
+    font-size: 20px;
+    color: #5A381E;
+}
+.text2enimg p {
+    color: #5A381E;
+}
+.text3enimg2 p {
+    color: #5A381E;
+}
+.text2enimg, .text3enimg2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.text2enimg img, .text3enimg2 img {
+    height: 400px;
+    object-fit: cover;
+}
+.img1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ourgillary img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.gillary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gillary img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.safraan {
+    text-align: center;
+    color: goldenrod;
+    font-family: Arial, sans-serif;
+}
+
+.safraan h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.safraan h2 {
+    font-size: 100px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+
+.card span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.dinner span {
+    color: brown;
+}
+
+.lunch span {
+    color: black;
+}
+
+.footer {
+    background-color: #AFB42B;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.opening-tijden h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.opening-tijden p {
+    color: brown;
+}
+
+.socials img {
+    width: 35px;  
+    height: 35px;
+    object-fit: contain; 
+    margin-right: 8px; 
+}
+
+.reservation-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 30px;
+}
+
+.reservation-form {
+    width: 48%; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservation-form input, 
+.reservation-form textarea, 
+.reservation-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.reservation-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #45a049;
+}
+
+.map-container {
+    width: 48%; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
+
+.map-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 20; 
+}
+
+.reservation-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 30px;
+}
+
+.reservation-form {
+    width: 48%; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservation-form input, 
+.reservation-form textarea, 
+.reservation-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.reservation-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #45a049;
+}
+
+.map-container {
+    width: 48%; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
+
+.map-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .reservation-page {
+        flex-direction: column; 
+    }
+
+    .reservation-form,
+    .map-container {
+        width: 100%; 
+    }
+
+    .map-container {
+        margin-top: 20px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        z-index: 10; 
+    }
+
+    .nav-links a {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block; 
+        z-index: 20; 
+    }
+
+    .nav-links.show {
+        display: flex; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .gillary {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .gillary {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .gillary {
+        grid-template-columns: 1fr; 
+    }
+}
